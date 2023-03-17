@@ -1,8 +1,15 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   text-align: center;
+  justify-content: center;
   color: #0d1f22;
 }
 
