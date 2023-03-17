@@ -2,7 +2,6 @@ import Head from "next/head";
 import Styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import { getAllRecipes } from "@/utils/recipeUtils";
-import Pasta from "@/public/images/pasta.jpg";
 
 export default function Home(props) {
   return (
@@ -14,7 +13,7 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={Styles.main}>
-        <h1 className={Styles.heading}>Recipes</h1>
+        <h1 className={Styles.heading}>MY RECIPES</h1>
 
         <div className={Styles.cardContainer}>
           {props.recipes?.length &&
