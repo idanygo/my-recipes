@@ -169,7 +169,7 @@ const recipes = [
     id: 6,
     title: "Beef Stroganoff",
     description:
-      "A hearty Russian dish featuring tender beef in a creamy sauce served over egg noodles.",
+      "A hearty dish featuring tender beef in a creamy sauce served over egg noodles.",
     ingredients: [
       "1 lb beef sirloin, sliced into strips",
       "1 onion, chopped",
